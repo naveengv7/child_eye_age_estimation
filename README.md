@@ -37,8 +37,8 @@ You must **download them manually** from Google Drive and place them inside the 
 ## Installation
 **Clone Repository, Install Dependencies and Run the Inference**
 ```bash
-git clone https://github.com/yourusername/age-estimation-inference.git
-cd age-estimation-inference
+git clone https://github.com/naveengv7/child_eye_age_estimation.git
+cd child_eye_age_estimation
 
 pip install torch torchvision timm pillow numpy
 
