@@ -2,7 +2,7 @@
 
 This repository provides a **Python script** to test multiple **CNN and Transformer-based models** for **children age estimation** using either **iris-only** or **full-eye** images.
 
-## 🚀 Features
+## Features
 - Supports **10 different CNN & Transformer models** trained for children age estimation:
   - `ResNet-50`
   - `EfficientNet-B3`
@@ -19,12 +19,12 @@ This repository provides a **Python script** to test multiple **CNN and Transfor
   - **Full-eye images** (`eye.pth`)
 ---
 
-## 📥 Download the Pretrained Models
+## Download the Pretrained Models
 Since `.pth` model files are large, they are **not included in this repository**.  
 You must **download them manually** from Google Drive and place them inside the `models/` folder.
 
 1. **Download models from Google Drive**  
-   📌 **Google Drive Link**: [https://drive.google.com/drive/folders/1aHE6rauxsAiT4UOfYTqTV4DcrkdkvcQ2?usp=drive_link]
+   **Google Drive Link**: [https://drive.google.com/drive/folders/1aHE6rauxsAiT4UOfYTqTV4DcrkdkvcQ2?usp=drive_link]
 
 2. **Extract & Place the Models**  
    - Place each `eye.pth` and `iris.pth` file inside the corresponding model folder.  
@@ -34,7 +34,7 @@ You must **download them manually** from Google Drive and place them inside the 
      models/ResNet-50/eye.pth
      ```
 
-## 🔧 Installation
+## Installation
 **Clone Repository, Install Dependencies and Run the Inference**
 ```bash
 git clone https://github.com/yourusername/age-estimation-inference.git
